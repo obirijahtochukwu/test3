@@ -1,0 +1,435 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  /* Begin my Journey */
+
+  font-family: "bitter";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 35px;
+  line-height: 29px;
+  /* identical to box height, or 83% */
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #700606;
+
+  text-align: center;
+}
+
+.search {
+  /* Frame 1773 */
+
+  box-sizing: border-box;
+  border: 2px solid rgba(112, 6, 6, 1);
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 10px;
+
+  width: 269px;
+  height: 35px;
+
+  border-radius: 7px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.firstcard {
+  /* Mask group */
+
+  width: 368px;
+  height: 385px;
+  flex-direction: column;
+  display: flex;
+  border-radius: 20px;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.gradient-bg {
+  /* Frame 1648 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 10px;
+  gap: 10px;
+  margin-top: auto;
+  width: 100%;
+  height: 31px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 238, 238, 0) 0%,
+    rgba(255, 238, 238, 0.15) 25%,
+    rgba(255, 238, 238, 0.75) 50%,
+    rgba(255, 248, 248, 0.15) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  /* Gujarathi Bride */
+
+  font-family: "bitter";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 161% */
+
+  color: #700606;
+}
+
+.firstcard-footer {
+  /* Rectangle 459 */
+  margin-top: 5px;
+  width: auto;
+  height: 63px;
+  display: flex;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    270deg,
+    #ffd5d5 0%,
+    rgba(255, 246, 246, 0.545) 71.93%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 0px 0px 20px 20px;
+}
+
+.firstcard-footer-tag {
+  /* Frame 1648 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 10px;
+  gap: 10px;
+
+  width: 105px;
+  height: 31px;
+
+  background: #ffffff;
+  border-radius: 6px;
+  /* Panjabi Bride */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  /* identical to box height, or 207% */
+  white-space: nowrap;
+
+  color: #700606;
+}
+
+.firstcard-footer aside {
+  display: flex;
+  align-items: center;
+  width: 284px;
+  gap: 14px;
+  overflow-x: hidden;
+}
+
+.firstcard-footer-tag-2 {
+  /* Frame 1649 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 10px;
+  gap: 10px;
+
+  width: 189px;
+  height: 31px;
+
+  border: 1px solid #700606;
+  border-radius: 6px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  /* identical to box height, or 207% */
+  white-space: nowrap;
+
+  color: #700606;
+}
+
+.firstcard-2 {
+  /* Mask group */
+
+  width: 220px;
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  border-radius: 20px;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.top-gradient {
+  /* Frame 1751 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 10px;
+  gap: 10px;
+
+  width: 162px;
+  height: 32.89px;
+  margin-left: auto;
+
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffeeee 100%);
+  border-radius: 0px 10px 0px 0px;
+
+  /* 987 Designs Available */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  /* identical to box height, or 207% */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: rgba(47, 45, 45, 0.87);
+}
+
+.gradient-bg-2 {
+  /* Rectangle 11 */
+
+  width: 100%;
+  height: 48.84px;
+  margin-top: auto;
+  background: linear-gradient(
+    180deg,
+    #f3b0b0 0%,
+    rgba(255, 238, 238, 0.64) 100%
+  );
+  /* Bangles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 161% */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #2f2d2d;
+}
+
+.firstcard-3 {
+  display: flex;
+  /* Group 1777 */
+
+  width: 490px;
+  height: 340px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.-btn {
+  /* Alt.Tab */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+
+  width: fit-content;
+  height: 54px;
+
+  background: #ffffff;
+  border: 1px solid #832729;
+  border-radius: 40px;
+
+  /* Modern Minimalist */
+
+  /* Web/Body/M (16)/Regular */
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  color: #300708;
+}
+
+.inaactive {
+  color: #969288 !important;
+  border-color: rgba(224, 224, 224, 1) !important;
+}
+
+.footer-title {
+  /* Web/Heading/H2/Regular */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120%;
+  /* or 77px */
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #300708;
+
+  /* Inside auto layout */
+}
+
+.footer-desc {
+  /* Name */
+
+  /* Web/Heading/M (16)/Regular */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136%;
+  /* or 22px */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #767469;
+
+  /* Inside auto layout */
+}
+
+.footer-name {
+  /* Arushi Sahwheny */
+
+  /* Web/Heading/S (14)/Semibold */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 136%;
+  /* identical to box height, or 19px */
+  letter-spacing: -0.02em;
+
+  color: #300708;
+}
+
+.footer-role {
+  /* Marketing executive, Mumbai */
+
+  /* Web/Body/S (14)/Regular */
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: -0.01em;
+
+  color: #56544e;
+
+  /* Inside auto layout */
+}
+
+.footer-be {
+  /* Under 50,000 */
+
+  /* Web/Heading/XXL (28)/Regular */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 128%;
+  /* identical to box height, or 36px */
+  letter-spacing: -0.02em;
+
+  color: #490a0c;
+
+  /* Inside auto layout */
+  margin-top: 40px;
+}
+
+.footer-follow {
+  /* Intricate pieces that won’t break the bank */
+
+  /* Web/Body/M (16)/Regular */
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: -0.01em;
+
+  color: #56544e;
+}
+
+.footer-card {
+  /* Frame 1261157184 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+
+  width: auto;
+  height: 100px;
+
+  background: #ffffff;
+
+  /* ARUSHISAHWENY */
+
+  /* Web/Body/Captions/Regular */
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 128%;
+  /* identical to box height, or 26px */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #070202;
+
+  /* Inside auto layout */
+}
